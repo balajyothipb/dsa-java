@@ -7,7 +7,6 @@ public class MooresVotingalgorithm {
         int count = 0;
         for (int i=0;i<=arr.length-1;i++){
             if(count == 0){
-                count=1;
                 element=arr[i];
             }
             if(element == arr[i]){
